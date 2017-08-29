@@ -1,0 +1,2 @@
+Panel with heading:
+Easily add a heading container to your panel with .panel-heading. You may also include any <h1>-<h6> with a .panel-title class to add a pre-styled heading. However, the font sizes of <h1>-<h6> are overridden by .panel-heading.

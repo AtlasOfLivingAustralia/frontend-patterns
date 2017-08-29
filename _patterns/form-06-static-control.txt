@@ -1,0 +1,1 @@
+When you need to place plain text next to a form label within a form, use the .form-control-static class on a <p>.

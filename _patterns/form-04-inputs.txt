@@ -1,0 +1,3 @@
+Most common form control, text-based input fields. Includes support for all HTML5 types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
+
+Extend form controls by adding text or buttons before, after, or on both sides of any text-based <input>. Use .input-group with an .input-group-addon or .input-group-btn to prepend or append elements to a single .form-control.

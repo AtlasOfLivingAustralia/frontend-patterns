@@ -1,0 +1,1 @@
+Call-outs are used to highlight acknowledgements, help text and any information that is not suitable for an alert.

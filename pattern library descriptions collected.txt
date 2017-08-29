@@ -1,0 +1,389 @@
+-------------
+**alerts-01-ala-status-alerts.txt**
+Alerts
+Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+
+Examples
+Alerts are available for any length of text, as well as an optional dismiss button.
+
+-------------
+**buttons-1-button-types.txt**
+
+Button tags
+Use the button classes on an <a>, <button>, or <input> element.
+
+Links acting as buttons
+If the <a> elements are used to act as buttons – triggering in-page functionality, rather than navigating to another document or section within the current page – they should also be given an appropriate role="button".
+
+-------------
+buttons-2-options.txt
+
+Use any of the available button classes to quickly create a Bootstrap styled button.
+
+Conveying meaning to assistive technologies
+Using colour to add meaning to a button only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the colour is either obvious from the content itself (the visible text of the button), or is included through alternative means, such as additional text hidden with the .sr-only class.
+
+-------------
+buttons-3-sizes.txt
+
+Add .btn-lg, .btn-sm, or .btn-xs for additional sizing.
+
+Create block level buttons—those that span the full width of a parent— by adding .btn-block.
+
+-------------
+buttons-4-disabled-state.txt
+
+Disabled button element
+Add the disabled attribute to <button> buttons. Make buttons look unclickable by fading them back with opacity.
+
+-------------
+buttons-group-1-basic-example.txt
+
+Group a series of buttons together on a single line with the button group. Add on optional JavaScript radio and checkbox style behavior with our buttons plugin.
+
+Wrap a series of buttons with .btn in .btn-group.
+
+-------------
+buttons-group-2-button-toolbar.txt
+
+Combine sets of <div class="btn-group"> into a <div class="btn-toolbar"> for more complex components.
+
+-------------
+buttons-group-3-sizing.txt
+
+Instead of applying button sizing classes to every button in a group, just add .btn-group-* to each .btn-group, including when nesting multiple groups.
+
+-------------
+buttons-group-4-nesting.txt
+
+Place a .btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons.
+
+-------------
+call-out-01-basic-example.txt
+
+Call-outs are used to highlight acknowledgements, help text and any information that is not suitable for an alert.
+
+-------------
+content-types-01-page-category.txt
+
+Page content types are contextual elements designed to indicate the purpose of the page.  There are 5 main page content types, which are: application, article, channel, knowledge base, and site utilities.
+
+To set / change the page content type, edit the WordPress page and in the right hand side under ‘Page Attributes > Template’, select the content type from the drop down menu. 
+
+-------------
+facet-navigation-01-basic-example.txt
+
+Faceted navigation or faceted browsing, is a technique for accessing information organised according to a faceted classification system, allowing users to explore a collection of information by applying multiple filters.
+
+-------------
+form-01-basic-example.txt
+
+Individual form controls automatically receive some global styling. All textual <input>, <textarea>, and <select> elements with .form-control are set to width: 100%; by default. Wrap labels and controls in .form-group for optimum spacing.
+
+-------------
+form-02-inline-form.txt
+
+Add .form-inline to your form (which doesn't have to be a <form>) for left-aligned and inline-block controls. This only applies to forms within viewports that are at least 768px wide.
+
+-------------
+form-03-horizontal-form.txt
+
+Use Bootstrap's predefined grid classes to align labels and groups of form controls in a horizontal layout by adding .form-horizontal to the form (which doesn't have to be a <form>). Doing so changes .form-groups to behave as grid rows, so no need for .row.
+
+-------------
+form-04-inputs.txt
+
+Most common form control, text-based input fields. Includes support for all HTML5 types: text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, and color.
+
+Extend form controls by adding text or buttons before, after, or on both sides of any text-based <input>. Use .input-group with an .input-group-addon or .input-group-btn to prepend or append elements to a single .form-control.
+
+-------------
+form-05-supported-controls.txt
+
+Examples of standard form controls supported in an example form layout.
+
+Checkboxes and radios
+Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.
+
+Disabled checkboxes and radios are supported, but to provide a "not-allowed" cursor on hover of the parent <label>, you'll need to add the .disabled class to the parent .radio, .radio-inline, .checkbox, or .checkbox-inline.
+
+Selects
+Note that many native select menus—namely in Safari and Chrome—have rounded corners that cannot be modified via border-radius properties.
+
+-------------
+form-06-static-control.txt
+
+When you need to place plain text next to a form label within a form, use the .form-control-static class on a <p>.
+
+-------------
+form-07-states.txt
+
+Focus state
+The default outline styles are removed on some form controls and a box-shadow is applied in its place for :focus.
+
+Disabled state
+Add the disabled boolean attribute on an input to prevent user interactions. Disabled inputs appear lighter and add a not-allowed cursor.
+
+Disabled fieldsets
+Add the disabled attribute to a <fieldset> to disable all the controls within the <fieldset> at once.
+
+Readonly state
+Add the readonly boolean attribute on an input to prevent modification of the input's value. Read-only inputs appear lighter (just like disabled inputs), but retain the standard cursor.
+
+-------------
+form-08-help-text.txt
+
+Help text
+Block level help text for form controls. Use help text to provide context when completing forms.
+
+-------------
+form-09-control-sizing.txt
+
+Control sizing
+Set heights using classes like .input-lg, and set widths using grid column classes like .col-lg-*.
+
+Height sizing
+Create taller or shorter form controls that match button sizes.
+
+Horizontal form group sizes
+Quickly size labels and form controls within .form-horizontal by adding .form-group-lg or .form-group-sm.
+
+Column sizing
+Wrap inputs in grid columns, or any custom parent element, to easily enforce desired widths.
+
+-------------
+image-01-shapes.txt
+
+Add classes to an <img> element to easily style images in any project.
+
+-------------
+image-02-shapes-framed.txt
+
+Add <img src="..." alt="..." class="img-thumbnail"> to create a framed image.
+
+-------------
+image-03-responsive-images.txt
+
+Responsive images
+Images in Bootstrap 3 can be made responsive-friendly via the addition of the .img-responsive class. This applies max-width: 100%;, height: auto; and display: block; to the image so that it scales nicely to the parent element.
+
+To center images which use the .img-responsive class, use .center-block instead of .text-center. See the helper classes section for more details about .center-block usage.
+
+-------------
+image-04-jumbotron.txt
+
+Jumbotron
+A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.
+
+To make the jumbotron full width, and without rounded corners, place it outside all .containers and instead add a .container within.
+
+-------------
+modal-01-static.txt
+
+Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.
+
+Static example
+A rendered modal with header, body, and set of actions in the footer.
+
+Modal markup placement
+Always try to place a modal's HTML code in a top-level position in your document to avoid other components affecting the modal's appearance and/or functionality.
+
+-------------
+navigation-01-ala-navbar.txt
+
+ALA navbar
+The navbar labels are designed to let the user know how to use the ALA website. New users will be directed to the “start exploring” dropdown menu which contains the core areas of the site for new users.
+
+The search & analyse dropdown menu groups together relevant functions for finding, downloading and analysing data sets. 
+
+Participate focuses on ways the user can participate or contribute to the ALA, including citizen science, recording sightings and submitting datasets.
+
+Learn about the ALA has specific information on who we are, how to use our site effectively, provides insight into what we are about and what we are doing as an organisation and provides ways to contact us and provide feedback.  
+
+-------------
+navigation-02-dropdown.txt
+
+Dropdowns
+Toggleable, contextual menu for displaying lists of links. Made interactive with the dropdown JavaScript plugin.
+
+Example
+Wrap the dropdown's trigger and the dropdown menu within .dropdown, or another element that declares position: relative;. Then add the menu's HTML.
+
+-------------
+navigation-03-breadcrumb.txt
+
+Breadcrumbs
+A breadcrumb trail consists of a list of links to the parent pages of the current page in hierarchical order. It helps users find their place within a website or web application. Breadcrumbs are often placed horizontally before a page's main content.
+
+Accessibility Features
+- The set of links is structured using an ordered list .
+- A nav element labeled Breadcrumb identifies the structure as a breadcrumb trail and makes it a navigation landmark so that it is easy to locate.
+- To prevent screen reader announcement of the visual separators between links, they are added via CSS:
+	- The separators are part of the visual presentation that signifies the breadcrumb trail, which is already semantically represented by the nav element with its label of Breadcrumb. So, using a display technique that is not represented in the accessibility tree used by screen readers prevents redundant and potentially distracting verbosity.
+	- Each link has a border on one side that is skewed with the CSS’ transform property so it resembles a slash.
+
+-------------
+navigation-04-tabs.txt
+
+Tabs
+Note the .nav-tabs class requires the .nav base class.
+
+-------------
+navigation-05-pagination.txt
+
+Pagination
+Provide pagination links for your site or app with the multi-page pagination component, or the simpler pager alternative.
+
+Default pagination
+Simple pagination, ideal for apps and search results. The large block is hard to miss, easily scalable, and provides large click areas.
+
+-------------
+navigation-06-pager.txt
+
+Pager
+Quick previous and next links for simple pagination implementations with light markup and styles.
+
+Default example: By default, the pager centers links.
+Aligned links: Alternatively, you can align each link to both the left and right sides.
+
+-------------
+news-01-channel-story.txt
+
+News channel story
+Channel stories panels are presented on the News landing page, https://www.ala.org.au/category/blogs-news/ and have a title category, a news article heading, a date that the article was published and any relevant tags to provide additional context. The channel story is a link that takes the user to the full news article.
+
+The image to the right of the channel story panel is pulled from the main news article. If no images are used in the news article, then no image will appear in the channel story panel. Default ALA article image options are also available. 
+
+-------------
+news-02-newsletter-signup.txt
+
+Newsletter signup
+The newsletter signup has been designed to encourage users to sign up to the ALA news service. 
+
+This feature is independent from the current news subscription method which is set in the user profile section, which has been found in user testing to be too buried for users to find.
+
+-------------
+news-03-article-feature-image.txt
+
+ALA article feature image
+The news article feature image background is an ALA branded feature image designed to be used when a news article has been set to the feature status but has no image to support the news article. This image is in the WordPress media library and can be easily referenced and reused as often as required.
+
+-------------
+news-04-article-generic-image-1.txt
+
+ALA article generic image 1
+Designed to be used as a placeholder image for the news landing page channel. This image can be used when there is no image to support the article. This image is in the WordPress media library and can be easily referenced and reused as often as required. There are two variations on this image.
+
+-------------
+news-05-article-generic-image-2.txt
+
+ALA article generic image 2
+Designed to be used as a placeholder image for the news landing page channel. This image can be used when there is no image to support the article. This image is in the WordPress media library and can be easily referenced and reused as often as required. There are two variations on this image.
+
+-------------
+panel-01-basic-example.txt
+
+Basic example
+By default, all the .panel does is apply some basic border and padding to contain some content.
+
+-------------
+panel-02-with-heading.txt
+
+Panel with heading
+Easily add a heading container to your panel with .panel-heading. You may also include any <h1>-<h6> with a .panel-title class to add a pre-styled heading. However, the font sizes of <h1>-<h6> are overridden by .panel-heading.
+
+-------------
+panel-03-with-footer.txt
+
+Panel with footer
+Wrap buttons or secondary text in .panel-footer. Note that panel footers do not inherit colours and borders when using contextual variations as they are not meant to be in the foreground.
+
+-------------
+panel-04-with-table.txt
+
+Panels with tables
+Add any non-bordered .table within a panel for a seamless design. If there is a .panel-body, we add an extra border to the top of the table for separation.
+
+-------------
+panel-05-with-image.txt
+
+Panels with Image
+The panel and photo image combination is for the homepage and for the top row of the homepage channels.
+
+-------------
+panel-06-with-icon-pattern.txt
+
+The panel and icon pattern image for the bottom row of the homepage and focuses specifically on ALA information and ALA services. It is also used throughout the rest of the site where channels are set up to push users to varying content.
+
+A series of icons plus pattern backgrounds have been created to align with their subject matter.
+
+-------------
+panel-07-typography.txt
+
+On the left, predefined panel typography includes, h3, h4, p-help-block, strong and a href styles.
+
+On the right is an example of all of the typography put together, including imagery.
+
+Note that h4 elements will rarely be used in the panels but the style exists if it is needed.
+
+-------------
+popover-01-static.txt
+
+Popovers
+Add small overlays of content, like those on the iPad, to any element for housing secondary information.
+
+Popovers whose both title and content are zero-length are never displayed.
+
+-------------
+progress-bars-01-basic-example.txt
+
+Progress bars
+Provide up-to-date feedback on the progress of a workflow or action with simple yet flexible progress bars.
+
+Basic example: Default progress bar.
+With label: Remove the <span> with .sr-only class from within the progress bar to show a visible percentage.
+
+To ensure that the label text remains legible even for low percentages, consider adding a min-width to the progress bar.
+
+Contextual alternatives
+Progress bars use some of the same button and alert classes for consistent styles.
+
+-------------
+sidebar-01-toc.txt
+
+The Sidebar Table of Contents (TOC) is designed to give article pages a mini-information architecture. This allows the user to jump to the relevant section and move throughout the page as required. 
+
+In WordPress, the following page templates have the TOC added automatically: Knowledge base and Article.
+
+Note that the TOC automatically picks up on h4 titles to generate the Page Contents TOC.
+
+-------------
+table-01-basic-example.txt
+
+Basic example
+For basic styling — light padding and only horizontal dividers — add the base class .table to any <table>. It may seem redundant, but given the widespread use of tables for other plugins like calendars and date pickers, isolating our custom table styles is required.
+
+-------------
+table-02-striped-rows.txt
+
+Striped rows
+Use .table-striped to add zebra-striping to any table row within the <tbody>.
+
+-------------
+table-03-bordered-table.txt
+
+Bordered table
+Add .table-bordered for borders on all sides of the table and cells.
+
+-------------
+table-04-hover-rows.txt
+
+Hover rows
+Add .table-hover to enable a hover state on table rows within a <tbody>.
+
+-------------
+table-05-condensed-table.txt
+
+Condensed table
+Add .table-condensed to make tables more compact by cutting cell padding in half.
+

@@ -1,0 +1,2 @@
+ALA article feature image:
+The news article feature image background is an ALA branded feature image designed to be used when a news article has been set to the feature status but has no image to support the news article. This image is in the WordPress media library and can be easily referenced and reused as often as required.
