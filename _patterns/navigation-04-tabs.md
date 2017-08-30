@@ -1,2 +1,2 @@
-Tabs:
-Note the .nav-tabs class requires the .nav base class.
+**Tabs:**
+Note the `.nav-tabs` class requires the `.nav` base class.

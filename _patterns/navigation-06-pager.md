@@ -1,4 +1,4 @@
-Pager:
+**Pager:**
 Quick previous and next links for simple pagination implementations with light markup and styles.
 
 Default example: By default, the pager centers links.

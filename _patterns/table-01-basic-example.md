@@ -1,2 +1,2 @@
-Basic example:
-For basic styling — light padding and only horizontal dividers — add the base class .table to any <table>. It may seem redundant, but given the widespread use of tables for other plugins like calendars and date pickers, isolating our custom table styles is required.
+**Basic example:**
+For basic styling — light padding and only horizontal dividers — add the base class .table to any `<table>`. It may seem redundant, but given the widespread use of tables for other plugins like calendars and date pickers, isolating our custom table styles is required.

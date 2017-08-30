@@ -1,2 +1,2 @@
-Panel with footer:
-Wrap buttons or secondary text in .panel-footer. Note that panel footers do not inherit colours and borders when using contextual variations as they are not meant to be in the foreground.
+**Panel with footer:**
+Wrap buttons or secondary text in `.panel-footer`. Note that panel footers do not inherit colours and borders when using contextual variations as they are not meant to be in the foreground.

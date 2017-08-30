@@ -1,4 +1,4 @@
-ALA navbar:
+require 'Parsedown.php';
 The navbar labels are designed to let the user know how to use the ALA website. New users will be directed to the “start exploring” dropdown menu which contains the core areas of the site for new users.
 
 The search & analyse dropdown menu groups together relevant functions for finding, downloading and analysing data sets.
