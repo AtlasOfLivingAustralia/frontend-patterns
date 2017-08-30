@@ -1,1 +1,1 @@
-Combine sets of <div class="btn-group"> into a <div class="btn-toolbar"> for more complex components.
+Combine sets of `<div class="btn-group">` into a `<div class="btn-toolbar">` for more complex components.
