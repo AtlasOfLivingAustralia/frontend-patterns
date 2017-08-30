@@ -32,26 +32,26 @@
 			border-bottom:4px solid #e9e9e9;
 			position:relative;
 		}
-			details.primer summary {
-				font-size: 1.5em;
-				line-height: 1;
-				text-shadow: 0 1px 0 #fff;
-				background-color: #e9e9e9;
-				padding: 0.1em 0.65em;
-				overflow: hidden;
-				position: absolute;
-				right: 0;
-				top: -1em;
-				cursor: pointer;
-			}
-			details.primer summary::-webkit-details-marker {
-				display:none;
-			}
+		details.primer summary {
+			font-size: 1.5em;
+			line-height: 1;
+			text-shadow: 0 1px 0 #fff;
+			background-color: #e9e9e9;
+			padding: 0.1em 0.65em;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: -1em;
+			cursor: pointer;
+		}
+		details.primer summary::-webkit-details-marker {
+			display:none;
+		}
 		details.primer section {
 			padding:1.5%;
 			overflow:hidden;
 		}
-		details.primer p.caption {
+		details.primer .caption {
 			margin-left:0;
 			margin-bottom:0;
 		}
@@ -60,7 +60,7 @@
 				width:58%;
 				float:left;
 			}
-			details.primer p.caption {
+			details.primer .caption {
 				width:38%;
 				float:right;
 			}
@@ -81,9 +81,11 @@
 			</header>
 
 <?php
+    require 'Parsedown.php';
 	$files = array();
 	$patterns_dir = "_patterns";
 	$handle = opendir($patterns_dir);
+	$Parsedown = new Parsedown();
 	while (false !== ($file = readdir($handle))):
 		if(stristr($file,'.html')):
 			$files[] = $file;
@@ -98,7 +100,8 @@
 		echo '<section>';
 		echo '<textarea rows="10" cols="30" class="input code">'.htmlspecialchars(file_get_contents($patterns_dir.'/'.$file)).'</textarea>';
 		// echo '<p class="caption"><strong>Usage:</strong> '.@file_get_contents($patterns_dir.'/'.str_replace('.html','.txt',$file)).'</p>';
-		echo '<p class="caption"><strong>Usage:</strong> '.htmlspecialchars(@file_get_contents($patterns_dir.'/'.str_replace('.html','.txt',$file))).'</p>';
+		//echo '<p class="caption"><strong>Usage:</strong> '.htmlspecialchars(@file_get_contents($patterns_dir.'/'.str_replace('.html','.txt',$file))).'</p>';
+		echo '<div class="caption"><p><b>Usage:</b></p> '.$Parsedown->text(@file_get_contents($patterns_dir.'/'.str_replace('.html','.md',$file))).'</div>';
 		echo '</section>';
 		echo '</details><!--/.primer-->';
 		echo '</section><!--/.pattern-->';
