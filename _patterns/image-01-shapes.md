@@ -1,1 +1,1 @@
-Add classes to an <img> element to easily style images in any project.
+Add classes to an `<img>` element to easily style images in any project.

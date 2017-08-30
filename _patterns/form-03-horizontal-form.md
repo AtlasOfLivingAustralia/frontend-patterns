@@ -1,1 +1,1 @@
-Use Bootstrap's predefined grid classes to align labels and groups of form controls in a horizontal layout by adding .form-horizontal to the form (which doesn't have to be a <form>). Doing so changes .form-groups to behave as grid rows, so no need for .row.
+Use Bootstrap's predefined grid classes to align labels and groups of form controls in a horizontal layout by adding `.form-horizontal` to the form (which doesn't have to be a `<form>`). Doing so changes `.form-groups` to behave as grid rows, so no need for `.row`.

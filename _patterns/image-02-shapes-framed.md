@@ -1,1 +1,1 @@
-Add <img src="..." alt="..." class="img-thumbnail"> to create a framed image.
+Add `<img src="..." alt="..." class="img-thumbnail">` to create a framed image.

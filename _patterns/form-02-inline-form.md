@@ -1,1 +1,1 @@
-Add .form-inline to your form (which doesn't have to be a <form>) for left-aligned and inline-block controls. This only applies to forms within viewports that are at least 768px wide.
+Add `.form-inline` to your form (which doesn't have to be a `<form>`) for left-aligned and inline-block controls. This only applies to forms within viewports that are at least 768px wide.
