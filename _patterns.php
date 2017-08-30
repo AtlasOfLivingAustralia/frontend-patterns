@@ -101,7 +101,7 @@
 		echo '<textarea rows="10" cols="30" class="input code">'.htmlspecialchars(file_get_contents($patterns_dir.'/'.$file)).'</textarea>';
 		// echo '<p class="caption"><strong>Usage:</strong> '.@file_get_contents($patterns_dir.'/'.str_replace('.html','.txt',$file)).'</p>';
 		//echo '<p class="caption"><strong>Usage:</strong> '.htmlspecialchars(@file_get_contents($patterns_dir.'/'.str_replace('.html','.txt',$file))).'</p>';
-		echo '<div class="caption"><p><b>Usage:</b></p> '.$Parsedown->text(@file_get_contents($patterns_dir.'/'.str_replace('.html','.md',$file))).'</div>';
+		echo '<div class="caption"> '.$Parsedown->text(@file_get_contents($patterns_dir.'/'.str_replace('.html','.md',$file))).'</div>';
 		echo '</section>';
 		echo '</details><!--/.primer-->';
 		echo '</section><!--/.pattern-->';
