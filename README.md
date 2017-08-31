@@ -5,7 +5,7 @@ UI / front-end (HTML/CSS) patterns for use in ALA sites.
 
 ## Notes
 
-Adding ?debug=true to the end of URL will show a 8px baseline grid.
+Adding `?debug=true` to the end of URL will show a 8px baseline grid.
 
 
 
