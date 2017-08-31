@@ -59,7 +59,7 @@
         <dt><a href="_article-styleguide.php">Article Style Guide</a></dt>
         <dd>Typographic styles for the article content type</dd>
 				<dt><a href="_patterns.php">Pattern Library</a></dt>
-				<dd>Common snippets of markup</dd>
+				<dd>Common snippets of markup (click the 3-dots icon on the right to see code examples)</dd>
 				<dt><a href="_forms.php">Form Example</a></dt>
 				<dd>Basic form styles</dd>
 			</dl>
