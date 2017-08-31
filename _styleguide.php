@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en-gb">
 
 <head>
-	<title>Style Guide - Barebones</title>
+	<title>Style Guide - ALA UI Pattern Library</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -28,7 +28,7 @@
 		<div class="container">
 			<header>
 				<nav role="navigation" class="breadcrumb-nav">
-					<a href="../">Barebones</a> /
+					<a href="../">ALA UI Pattern Library</a> /
 				</nav><!--/.breadcrumb-nav-->
 				<h1>Style Guide</h1>
 				<p class="lede">Basic markup and typographic styles</p>
@@ -431,7 +431,7 @@ p q r s t u v w x y z { | } ~</samp></pre>
 
 	<footer role="contentinfo">
 		<div class="container">
-			<p><small>Copyright &#169; 2013 <a href="http://paulrobertlloyd.com">Paul Robert Lloyd</a>. Code covered by the <a rel="license" href="http://paulrobertlloyd.mit-license.org/">MIT license</a>.</small></p>
+			<p><small>Based on <a href="https://github.com/paulrobertlloyd/barebones">BareBones</a> by <a href="http://paulrobertlloyd.com">Paul Robert Lloyd</a>. Code covered by the <a rel="license" href="http://paulrobertlloyd.mit-license.org/">MIT license</a>.</small></p>
 		</div><!--/container-->
 	</footer><!--/@contentinfo-->
 
