@@ -9,6 +9,7 @@
 
 	<!-- Bootstrap -->
   <link href="_css/bootstrap.min.css" rel="stylesheet">
+  <link href="_css/bootstrap-theme.min.css" rel="stylesheet">
   <link href="_css/ala-pattern-library-styles.css" rel="stylesheet">
 
   <!-- FontAwesome -->
