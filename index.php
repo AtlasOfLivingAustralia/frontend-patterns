@@ -10,6 +10,9 @@
   <!-- Bootstrap -->
   <link href="_css/bootstrap.min.css" rel="stylesheet">
   <link href="_css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="_css/ala-theme.css" rel="stylesheet">
+  <!-- <link href="_css/ala-styles.css" rel="stylesheet"> -->
+  <link href="https://www.ala.org.au/commonui-bs3/css/ala-styles.css" rel="stylesheet"/>
   <link href="_css/ala-pattern-library-styles.css" rel="stylesheet">
 
   <!-- FontAwesome -->
